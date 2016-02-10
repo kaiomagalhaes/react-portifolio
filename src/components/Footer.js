@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div className="container">
+        <div className="centered-container">
           <span className="text">© Kaio Magalhães - {new Date().getFullYear()}</span>
         </div>
       </div>

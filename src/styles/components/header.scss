@@ -1,0 +1,31 @@
+@import '../variables';
+
+.header {
+  background-color: $white-smoke;
+
+  .user-info-container {
+    padding-left: 30px;
+    text-align: left;
+
+    .name {
+      color:  $light-black;
+      font-size: 38px;
+      font-weight: 700;
+    }
+
+    .profession {
+      color: $dark-concrete-grey;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .name, .profession {
+      display: block;
+    }
+  }
+
+
+  .user-image, .user-info-container {
+    display: inline-block
+  }
+}
