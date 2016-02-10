@@ -5,6 +5,7 @@
     "__DEV__": true
   },
   "rules": {
+    "react/prop-types": 0,
     "react/jsx-quotes": 0,
     "jsx-quotes": [2, "prefer-double"]
   }
