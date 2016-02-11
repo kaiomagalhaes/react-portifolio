@@ -11,6 +11,7 @@
       color:  $light-black;
       font-size: 38px;
       font-weight: 700;
+      padding: 30px 0 5px 0;
     }
 
     .profession {
@@ -19,13 +20,15 @@
       font-weight: 400;
     }
 
-    .name, .profession {
+    .name,
+    .profession {
       display: block;
     }
   }
 
 
-  .user-image, .user-info-container {
-    display: inline-block
+  .user-image,
+  .user-info-container {
+    display: inline-block;
   }
 }
